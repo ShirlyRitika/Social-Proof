@@ -1,0 +1,116 @@
+body{
+    background-color: whitesmoke;
+    padding: 0px 120px 10px 120px;
+    margin:50px 180px 0px 180px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+.no{
+    font-size: large;
+    font-weight: bolder;
+}
+.container{
+    background-color: white;
+    margin: 140px;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    align-self: center;
+    width: fit-content;
+}
+.heading{
+    background-color: white;
+    height: auto;
+    width: fit-content;
+    text-align: center;
+    justify-content: center;
+}
+.first{
+    background-color: pink;
+    margin-left: 25px;
+    height: 70px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+}
+.second{
+    background-color: pink;
+    margin-left: 25px;
+    height: 70px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+}
+.third{
+    background-color: pink;
+    margin-left: 25px;
+    height: 70px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+}
+
+.one .two.three {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px; 
+    height: 200px;
+    overflow: hidden; 
+}
+
+.profile-image {
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.start {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.start h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.verified-buyer {
+    color: rgb(214, 7, 204);
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+    flex: 1;
+    overflow: initial;
+}
+
+.one{
+    background-color: blueviolet;
+    color: white;
+    font-size: medium;
+}
+.two{
+    background-color: blueviolet;
+    color: white;
+    font-size: medium;
+}
+.three{
+    background-color: blueviolet;
+    color: white;
+    font-size: medium;
+}
+
